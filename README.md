@@ -2,19 +2,6 @@
 
 A custom implementation of the Transformer architecture for sequence-to-sequence tasks in Natural Language Processing (NLP).
 
-## Preparing Repository
-
-1. Create an `images` directory in your repository:
-```bash
-mkdir images
-```
-
-2. Download these images and save them in the `images` directory:
-- [Transformer Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Transformer_architecture.png/1200px-Transformer_architecture.png)
-- [Transformer Block Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Transformer_Model_Architecture.png/1200px-Transformer_Model_Architecture.png)
-- [Attention Mechanism](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Scaled_Dot_Product_Attention.png/1200px-Scaled_Dot_Product_Attention.png)
-- [Transformer Components](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Transformer_components.png/1200px-Transformer_components.png)
-
 ## Background
 
 The Transformer was introduced in ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) by Vaswani et al. in 2017.
@@ -81,7 +68,7 @@ print(out.shape)
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/transformer-from-scratch.git
+git clone https://github.com/ZakLr/transformer-from-scratch.git
 pip install torch numpy
 ```
 
