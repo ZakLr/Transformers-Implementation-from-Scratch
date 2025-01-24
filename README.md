@@ -19,7 +19,7 @@ mkdir images
 
 The Transformer was introduced in ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) by Vaswani et al. in 2017.
 
-![Transformer Architecture](images/Architecture_d'un_Transformeur.png)
+![Transformer Architecture](Images/Architecture_d'un_Transformeur.png)
 
 ### Key Advantages
 
@@ -39,7 +39,7 @@ The Transformer comprises:
 
 ### Detailed Architecture
 
-![Transformer Block Diagram](images/transformer_block_architecture.png)
+![Transformer Block Diagram](Images/transformer_block_architecture.png)
 
 ## Mathematical Foundations
 
@@ -57,9 +57,9 @@ Where:
 
 ## Visualization of Components
 
-![Attention Mechanism](images/Self_attention_mechanism.jpg)
+![Attention Mechanism](Images/Self_attention_mechanism.jpg)
 
-![Transformer Components](images/transformer_components.svg)
+![Transformer Components](Images/transformer_components.svg)
 
 ## Code Example
 
