@@ -2,11 +2,24 @@
 
 A custom implementation of the Transformer architecture for sequence-to-sequence tasks in Natural Language Processing (NLP).
 
+## Preparing Repository
+
+1. Create an `images` directory in your repository:
+```bash
+mkdir images
+```
+
+2. Download these images and save them in the `images` directory:
+- [Transformer Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Transformer_architecture.png/1200px-Transformer_architecture.png)
+- [Transformer Block Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Transformer_Model_Architecture.png/1200px-Transformer_Model_Architecture.png)
+- [Attention Mechanism](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Scaled_Dot_Product_Attention.png/1200px-Scaled_Dot_Product_Attention.png)
+- [Transformer Components](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Transformer_components.png/1200px-Transformer_components.png)
+
 ## Background
 
 The Transformer was introduced in ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) by Vaswani et al. in 2017.
 
-![Transformer Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Transformer_architecture.png/1200px-Transformer_architecture.png)
+![Transformer Architecture](images/Architecture_d'un_Transformeur.png)
 
 ### Key Advantages
 
@@ -26,7 +39,7 @@ The Transformer comprises:
 
 ### Detailed Architecture
 
-![Transformer Block Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Transformer_Model_Architecture.png/1200px-Transformer_Model_Architecture.png)
+![Transformer Block Diagram](images/transformer_block_architecture.png)
 
 ## Mathematical Foundations
 
@@ -44,9 +57,9 @@ Where:
 
 ## Visualization of Components
 
-![Attention Mechanism](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Scaled_Dot_Product_Attention.png/1200px-Scaled_Dot_Product_Attention.png)
+![Attention Mechanism](images/Self_attention_mechanism.jpg)
 
-![Transformer Components](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Transformer_components.png/1200px-Transformer_components.png)
+![Transformer Components](images/transformer_components.svg)
 
 ## Code Example
 
@@ -82,7 +95,3 @@ pip install torch numpy
 
 - [Original Transformer Paper](https://arxiv.org/abs/1706.03762)
 - [Wikipedia: Transformer Model](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
-
-## License
-
-[Add your license]
